@@ -1,0 +1,11 @@
+.wrapper {
+    margin-bottom: 30px;
+}
+
+.img {
+    background-image: url(./assets/main.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1200px;
+    height: 700px;
+}
