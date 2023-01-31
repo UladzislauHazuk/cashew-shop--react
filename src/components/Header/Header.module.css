@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
+    margin: 0 50px 0 50px;
 }
 
 .wrapper .logo {
@@ -13,12 +14,22 @@
     height: 24px;
 }
 
+.wrapper .logo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .wrapper nav {
     display: flex;
 }
 
 .wrapper nav p:not(:last-child) {
     margin-right: 40px;
+}
+
+.wrapper nav p:hover {
+    cursor: pointer;
+    color: #686868;
 }
 
 .login-btns {
@@ -30,6 +41,11 @@
     font: 400 16px 'Roboto';
 }
 
+.merchant-login:hover {
+    cursor: pointer;
+    color: #686868;
+}
+
 .customer-login {
     font: 400 16px 'Roboto';
     border-radius: 5px;
@@ -38,6 +54,12 @@
     padding: 10px 15px;
 }
 
-.login-btns div {
+.customer-login:hover {
+    cursor: pointer;
+    background: #AB87FF;
+    color: #121212;
+}
+
+.login-btns div:first-child {
     margin-right: 40px;
 }

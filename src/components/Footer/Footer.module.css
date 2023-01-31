@@ -12,6 +12,12 @@
     background-size: contain;
     width: 157px;
     height: 28px;
+    margin-left: 40px;
+}
+
+.wrapper .logo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .wrapper nav {
@@ -23,5 +29,10 @@
 }
 
 .wrapper nav p:last-child {
-    margin-right: 40px;
+    margin-right: 50px;
+}
+
+.wrapper nav p:hover {
+    cursor: pointer;
+    color: #686868;
 }

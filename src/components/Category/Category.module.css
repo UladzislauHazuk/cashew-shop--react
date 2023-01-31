@@ -1,3 +1,8 @@
+.container {
+    max-width: 95%;
+    margin: auto;
+}
+
 h1 {
     font: 400 79px 'Roboto';
     color: rgba(30, 30, 30, 1);
@@ -7,10 +12,11 @@ h1 {
 .wrapper {
     display: grid;
     grid-template-areas: 'item1 item2 item4'
-                        'item1 item3 item4';
+        'item1 item3 item4';
     grid-template-columns: 575px 400px 180px;
     grid-template-rows: 210px 210px;
     grid-gap: 8px;
+    margin-bottom: 60px;
 }
 
 .wrapper div {
@@ -70,9 +76,43 @@ h1 {
     left: 16px;
     bottom: 20px;
     font-size: 13px;
-    color: rgba(171, 135, 255, 1);
+    color: #AB87FF;
     border: 1px solid #AB87FF;
     border-radius: 24px;
     padding: 6px 17px;
     max-width: max-content;
+}
+
+.wrapper .btn:hover {
+    cursor: pointer;
+    background: #AB87FF;
+    color: #121212;
+}
+
+.allBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 10px 13px 16px;
+    background: #121212;
+    border-radius: 5px;
+    width: 170px;
+}
+
+.allBtn p {
+    font: 400 15px 'Roboto';
+    color: rgba(255, 255, 255, 1);
+}
+
+.allBtn .arrow {
+    background-image: url(./assets/arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+}
+
+.allBtn:hover {
+    cursor: pointer;
+    background: #AB87FF;
 }

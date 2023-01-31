@@ -1,0 +1,48 @@
+.wrapper {
+    margin-top: 135px;
+    margin-bottom: 115px;
+    background-image: url(./assets/mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1200px;
+    height: 650px;
+    position: relative;
+}
+
+.wrapper .block1 {
+    padding: 27px 0 0 30px;
+}
+
+.wrapper .block1 h1 {
+    font: 400 78px 'Roboto';
+    color: #1E1E1E;
+    width: 545px;
+    margin-bottom: 20px;
+}
+
+.wrapper .block1 p {
+    font: 400 17px 'Roboto';
+    color: #686868;
+    width: 245px;
+    line-height: 23px;
+}
+
+.wrapper .block2 {
+    position: absolute;
+    left: 23%;
+    bottom: 17%;
+}
+
+.wrapper .block2 h2 {
+    font: 400 40px 'Roboto';
+    color: #121212;
+    width: 230px;
+    margin-bottom: 20px;
+}
+
+.wrapper .block2 p {
+    font: 400 16px 'Roboto';
+    color: #686868;
+    width: 300px;
+    line-height: 23px;
+}
